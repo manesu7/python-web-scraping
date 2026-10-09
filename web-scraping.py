@@ -57,7 +57,7 @@ print(soup.a.parent, "\n")
 
 
 for p in soup.a.parents:
-    print(p.name) # n.b. we can use the .name attribute to just get the name of the tag. Useful for debugging and checking output like this.
+    print(p.name)
 print("\n")
 
 
